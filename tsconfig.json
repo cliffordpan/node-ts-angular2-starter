@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "lib": ["es2015"]
+    },
+    // "compilerOptions": {
+    //     "module": "commonjs",
+    //     "target": "es5",
+    //     "moduleResolution": "classic",
+    //     "emitDecoratorMetadata": true,
+    //     "experimentalDecorators": true,
+    //     "sourceMap": true,
+    //     
+    //     "noImplicitAny": true,
+    //     "suppressImplicitAnyIndexErrors": true
+    // },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "**/node_modules", "public"
+    ]
+}

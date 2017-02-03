@@ -1,0 +1,35 @@
+{
+    "name": "ourpage",
+    "version": "1.0.0",
+    "description": "Ng2 TS-Node Starter",
+    "scripts": {
+        "start": "npm run build:live",
+        "build:live": ".\\node_modules\\.bin\\nodemon.cmd --exec .\\node_modules\\.bin\\ts-node.cmd .\\index.ts"
+    },
+    "author": "Cliff Pan",
+    "license": "MIT",
+    "repository": {},
+    "dependencies": {
+
+        "@types/node": "^7.0.4",
+        "core-js": "~2.4.1",
+        "rxjs": "~5.1.0",
+        "systemjs": "~0.20.5",
+        "typescript": "~2.1.5",
+        "zone.js": "~0.7.6"
+    },
+    "devDependencies": {
+        "@types/node": "^7.0.4",
+        "core-js": "~2.4.1",
+        "rxjs": "~5.1.0",
+        "systemjs": "~0.20.5",
+        "zone.js": "~0.7.6",
+        "body-parser": "^1.16.0",
+        "express": "*",
+        "mocha": "^3.1.2",
+        "nodemon": "^1.11.0",
+        "serve-static": "^1.11.2",
+        "ts-node": "^2.0.0",
+        "typescript": "~2.1.5"
+    }
+}
